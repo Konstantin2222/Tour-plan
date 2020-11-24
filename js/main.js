@@ -8,3 +8,9 @@ var mySwiper = new Swiper('.swiper-container', {
   },
   effect: 'ccoverflow',
 })
+var mySwiper = new Swiper('.swiper-container', {
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+});
