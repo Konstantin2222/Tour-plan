@@ -1227,7 +1227,10 @@ template {
     margin-bottom: 20px;
   }
   .hotel-slider {
-    height: 250px;
+    height: 100%;
+  }
+  .hotel-slider__image {
+    height: 179px;
   }
   .newsletter {
     padding: 76px 0 83px 0;
@@ -1246,10 +1249,21 @@ template {
   .subscribe {
     width: 100%;
   }
+  .reviews-slider__text {
+    font-size: 12px;
+    line-height: 160%;
+    text-align: left;
+  }
   .reviews__title {
+    font-style: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 23px;
-    min-width: 245px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 245px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -127,12 +127,13 @@
 @media (max-width: 576px)
   .logo
     width: 99px
-
   .hotel
     &__slider
       margin-bottom: 20px
     &-slider
-      height: 250px
+      height: 100%
+      &__image
+        height: 179px
   .newsletter
     padding: 76px 0 83px 0
     &-title
@@ -146,7 +147,18 @@
   .subscribe
     width: 100%
   .reviews
+    &-slider
+      &__text
+        font-size: 12px
+        line-height: 160%
+        text-align: left
     &__title
+      font-style: normal
+      font-weight: bold
       font-size: 18px
       line-height: 23px
-      min-width: 245px
+      text-align: center
+      text-transform: uppercase
+      width: 245px
+      margin-left: auto
+      margin-right: auto
