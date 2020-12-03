@@ -275,8 +275,12 @@
       width: 277px
       &__ul
         margin-bottom: 9px
+    &__item
+      &_fix
+        width: 264px
     &-wrapper
       grid-template-columns: 1fr
+      grid-row-gap: 33px
     &__logo
       grid-row: 1
       grid-column: 1
@@ -284,15 +288,18 @@
       &-network
         grid-row: 2
         grid-column: 1
+        flex-direction: column
+        align-items: flex-start
     &__additional
-      grid-row: 3
-      grid-column: 1
-    &__categories
       grid-row: 4
       grid-column: 1
-    &__legal
+    &__categories
       grid-row: 5
       grid-column: 1
+    &__legal
+      grid-row: 3
+      grid-column: 1
+      justify-content: flex-start
     &__contact-details
       grid-row: 6
       grid-column: 1
