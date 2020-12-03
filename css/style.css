@@ -1129,6 +1129,47 @@ template {
   padding-bottom: 46px;
 }
 
+.footer-bottom {
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 696px;
+  margin-right: 166px;
+}
+
+.footer-bottom__ul {
+  width: 283px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer-bottom__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .footer-wrapper {
   display: -ms-grid;
   display: grid;
@@ -1190,6 +1231,7 @@ template {
 
 .footer__contacts-form {
   grid-column: span 2;
+  margin-bottom: 95px;
 }
 
 .footer__form {
@@ -1300,6 +1342,7 @@ template {
   background-color: #EC1F46;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .footer__info {
@@ -1404,6 +1447,10 @@ template {
   .card {
     width: 45%;
     height: 255px;
+  }
+  .footer-bottom {
+    width: 698px;
+    margin-right: 34px;
   }
   .footer-wrapper {
     -ms-grid-columns: (1fr)[6];
@@ -1582,6 +1629,10 @@ template {
     width: 49%;
     height: 255px;
   }
+  .footer-bottom {
+    width: 80%;
+    margin-right: 34px;
+  }
   .footer__input {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -1641,6 +1692,14 @@ template {
   .card {
     width: 100%;
   }
+  .footer-bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 277px;
+  }
+  .footer-bottom__ul {
+    margin-bottom: 9px;
+  }
   .footer-wrapper {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1686,6 +1745,7 @@ template {
     grid-row: 7;
     -ms-grid-column: 1;
     grid-column: 1;
+    margin-bottom: 30px;
   }
   .footer__message {
     width: 300px;

@@ -3,6 +3,32 @@
   color: $white
   padding-top: 108px
   padding-bottom: 46px
+
+  &-bottom
+    position: absolute
+    right: 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 696px
+    margin-right: 166px
+    &__ul
+      width: 283px
+      display: flex
+      justify-content: space-between
+      list-style: none
+      padding: 0
+      margin: 0
+
+    &__item
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+
+    &__link
+      text-decoration: none
+      color: #ffffff
   &-wrapper
     display: grid
     grid-template-columns: repeat(4, minmax(min-content, 1fr))
@@ -30,6 +56,7 @@
     grid-column: span 2
   &__contacts-form
     grid-column: span 2
+    margin-bottom: 95px
   &__form
     display: flex
     align-items: center
@@ -99,6 +126,7 @@
     background-color: $primary
     border: none
     border-radius: 4px
+    cursor: pointer
   &__info
     font-style: normal
     font-weight: bold

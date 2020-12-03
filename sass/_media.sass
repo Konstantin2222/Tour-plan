@@ -67,6 +67,9 @@
     width: 45%
     height: 255px
   .footer
+    &-bottom
+      width: 698px
+      margin-right: 34px
     &-wrapper
       grid-template-columns: repeat(6, 1fr)
       grid-row-gap: 40px
@@ -178,6 +181,9 @@
     width: 49%
     height: 255px
   .footer
+    &-bottom
+      width: 80%
+      margin-right: 34px
     &__input
       flex-basis: 100%
 @media (max-width: 576px)
@@ -225,6 +231,11 @@
   .card
     width: 100%
   .footer
+    &-bottom
+      flex-wrap: wrap
+      width: 277px
+      &__ul
+        margin-bottom: 9px
     &-wrapper
       grid-template-columns: 1fr
     &__logo
@@ -249,5 +260,6 @@
     &__contacts-form
       grid-row: 7
       grid-column: 1
+      margin-bottom: 30px
     &__message
       width: 300px
