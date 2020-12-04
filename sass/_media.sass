@@ -127,6 +127,7 @@
       bottom: 0
       top: 78px
       padding-top: 30px
+      overflow-y: scroll
       &__visible
         display: block
     &-menu
@@ -228,6 +229,11 @@
 @media (max-width: 576px)
   .logo
     width: 99px
+  .navbar
+    &__search
+      &_mobile
+        &_visible
+          width: 80%
   .hotel
     &__slider
       margin-bottom: 20px

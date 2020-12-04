@@ -1560,6 +1560,7 @@ template {
     bottom: 0;
     top: 78px;
     padding-top: 30px;
+    overflow-y: scroll;
   }
   .navbar-bottom__visible {
     display: block;
@@ -1715,6 +1716,9 @@ template {
 @media (max-width: 576px) {
   .logo {
     width: 99px;
+  }
+  .navbar__search_mobile_visible {
+    width: 80%;
   }
   .hotel__slider {
     margin-bottom: 20px;
