@@ -1336,6 +1336,10 @@ template {
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .footer__message {
@@ -1348,6 +1352,10 @@ template {
   margin-bottom: 23px;
   height: 123px;
   resize: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .footer__button {
@@ -1730,6 +1738,7 @@ template {
     height: 179px;
   }
   .newsletter {
+    height: 319px;
     padding: 76px 0 83px 0;
   }
   .newsletter-title {
