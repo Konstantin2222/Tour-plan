@@ -277,6 +277,9 @@
   .card
     width: 100%
   .footer
+    &__title
+      &--inline
+        margin-bottom: 20px
     &-bottom
       flex-wrap: wrap
       width: 277px
@@ -316,3 +319,12 @@
       margin-bottom: 30px
     &__message
       width: 300px
+  .modal
+    &__dialog
+      padding: 33px 50px 33px 50px
+  @media (max-width: 576px) and (orientation:landscape)
+    .modal
+      &__dialog
+        height: 300px
+        width: 500px
+        overflow: auto
