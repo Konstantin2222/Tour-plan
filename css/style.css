@@ -61,6 +61,7 @@ img {
   color: #EC1F46;
   border-bottom: 1px solid #EC1F46;
   font-size: 12px;
+  position: relative;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1972,6 +1973,7 @@ template {
     width: 300px;
   }
   .modal__dialog {
+    width: 280px;
     padding: 23px 30px 23px 30px;
   }
 }

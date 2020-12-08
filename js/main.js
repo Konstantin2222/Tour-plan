@@ -63,7 +63,8 @@ $(document).ready(function (){
           email: "Your email address must be in the format of name@domain.com"
         },
         phone: {
-          required: "Phone is required",   
+          required: "Phone is required", 
+          minlength: "Number must be 11 numbers"  
         },
       },
     });
@@ -71,4 +72,5 @@ $(document).ready(function (){
   $(document).ready(function(){
     $('.phone').mask('+7(000)-000-00-00');
   });
+  AOS.init();
 });

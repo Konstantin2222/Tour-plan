@@ -8,15 +8,21 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Best Tour Plan - Hotel Booking</title>
   </head>
   <body>
     <header class="navbar navbar__mobile_fixed">
       <div class="container">
         <div class="navbar-top">
-          <a href="index.html" class="logo"
+          <a
+            href="index.html"
+            class="logo"
+            data-aos="fade-down"
+            data-aos-delay="100"
             ><img
               src="./img/logo-horizontal.svg"
               alt="logo: best tour plan"
@@ -25,6 +31,8 @@
           <form
             action="#"
             class="search navbar__search navbar__search_mobile_hidden"
+            data-aos="fade-down"
+            data-aos-delay="300"
           >
             <input
               type="text"
@@ -35,7 +43,12 @@
               <img src="./img/search.svg" alt="icon: search" />
             </button>
           </form>
-          <a href="#" class="user navbar__user navbar__user_mobile_hidden">
+          <a
+            href="#"
+            class="user navbar__user navbar__user_mobile_hidden"
+            data-aos="fade-down"
+            data-aos-delay="500"
+          >
             <img
               src="./img/user-avatar.jpg"
               alt="avatar: Nathan"
@@ -233,15 +246,26 @@
     </section>
     <section class="newsletter">
       <div class="newsletter-wrapper">
-        <h2 class="newsletter-title newsletter__title">
+        <h2
+          class="newsletter-title newsletter__title"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
           subscribe to our
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
-        <form action="#" class="subscribe newsletter__subscribe">
+        <form
+          action="#"
+          class="subscribe newsletter__subscribe form"
+          data-aos="fade-left"
+          data-aos-delay="800"
+        >
           <input
-            type="text"
             class="subscribe__input"
             placeholder="Your email address"
+            type="email"
+            name="email"
+            required
           />
           <button class="subscribe__button">Send</button>
         </form>
@@ -249,7 +273,9 @@
     </section>
     <section class="reviews">
       <div class="container">
-        <h2 class="reviews__title">What people think about us</h2>
+        <h2 class="reviews__title" data-aos="zoom-in-up" data-aos-delay="700">
+          What people think about us
+        </h2>
         <div class="swiper-container reviews-slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -329,7 +355,11 @@
       <div class="container">
         <h2 class="activites__title">Other Activities</h2>
         <div class="activites-wrapper">
-          <div class="card activites__card">
+          <div
+            class="card activites__card"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <img
               src="img/active-1.jpg"
               alt="The curious corner 
@@ -339,7 +369,11 @@
             <h3 class="card__title">The curious corner of chamarel</h3>
             <button class="card__button">Book Now</button>
           </div>
-          <div class="card activites__card">
+          <div
+            class="card activites__card"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <img
               src="img/active-2.jpg"
               alt="Gymkhana club golf
@@ -349,7 +383,11 @@
             <h3 class="card__title">Gymkhana club golf course</h3>
             <button class="card__button">Book Now</button>
           </div>
-          <div class="card activites__card">
+          <div
+            class="card activites__card"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <img
               src="img/active-3.jpg"
               alt="Tamarind falls hiking trip - full day"
@@ -358,7 +396,11 @@
             <h3 class="card__title">Tamarind falls hiking trip - full day</h3>
             <button class="card__button">Book Now</button>
           </div>
-          <div class="card activites__card">
+          <div
+            class="card activites__card"
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
             <img
               src="img/active-4.jpg"
               alt="The blue marine discovery
@@ -374,13 +416,13 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
-          <a class="footer__logo" href="#"
+          <a class="footer__logo" data-aos="flip-left" href="#"
             ><img
               src="img/vertical-logo.svg"
               alt="vertical logo"
               class="logo footer__logo"
           /></a>
-          <div class="footer__list footer__categories">
+          <div class="footer__list footer__categories" data-aos="flip-left">
             <h3 class="footer__title">ALL CATEGORIES</h3>
             <ul class="footer__ul">
               <li class="footer__item">
@@ -409,7 +451,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__list footer__additional">
+          <div class="footer__list footer__additional" data-aos="flip-left">
             <h3 class="footer__title">ADDITIONAL INFORMATION</h3>
             <ul class="footer__ul">
               <li class="footer__item">
@@ -434,7 +476,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__social-network">
+          <div class="footer__social-network" data-aos="flip-left">
             <h3 class="footer__title footer__title--inline">Social Network</h3>
             <div class="footer__social-links">
               <a href="#" class="footer__link"
@@ -448,7 +490,7 @@
               /></a>
             </div>
           </div>
-          <div class="footer__list footer__legal">
+          <div class="footer__list footer__legal" data-aos="flip-left">
             <h3 class="footer__title">LEGAL INFORMATION</h3>
             <ul class="footer__ul">
               <li class="footer__item">
@@ -465,7 +507,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__contact-details">
+          <div class="footer__contact-details" data-aos="flip-left">
             <h3 class="footer__title footer__title--mb-3">Contact Details</h3>
             <p class="footer__text">
               Feel free to contact us by phone, email or by our contact form
@@ -510,7 +552,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__contacts-form">
+          <div class="footer__contacts-form" data-aos="flip-left">
             <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
             <form action="send.php" method="POST" class="footer__form form">
               <div class="footer__input-group">
@@ -530,6 +572,7 @@
                   placeholder="Phone Number*"
                   name="phone"
                   required
+                  minlength="17"
                 />
               </div>
               <textarea
@@ -582,6 +625,7 @@
             placeholder="Phone Number*"
             name="phone"
             required
+            minlength="17"
           />
           <input
             type="email"
@@ -604,6 +648,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
