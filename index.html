@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;700;800&display=swap"
-      rel="stylesheet"
+      rel="preload"
     />
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/aos.css" />
@@ -244,7 +244,11 @@
         </div>
       </div>
     </section>
-    <section class="newsletter">
+    <section
+      class="newsletter"
+      data-parallax="scroll"
+      data-image-src="img/newsletter-bg.jpg"
+    >
       <div class="newsletter-wrapper">
         <h2
           class="newsletter-title newsletter__title"
@@ -255,7 +259,8 @@
           <span class="newsletter-title__strong">Newsletter</span>
         </h2>
         <form
-          action="#"
+          action="send.php"
+          method="POST"
           class="subscribe newsletter__subscribe form"
           data-aos="fade-left"
           data-aos-delay="800"
@@ -648,6 +653,7 @@
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
   </body>
